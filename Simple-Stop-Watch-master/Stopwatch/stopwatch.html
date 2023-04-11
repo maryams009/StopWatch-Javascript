@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="center">
+      <section>
+        <span class="fa fa-apple" id="apple"></span> <h1>Stopwatch</h1>
+
+        <div class="timerDisplay">
+          <span class="display" id="hours">00</span>
+          <span class="display" id="minutes">00</span>
+          <span class="display" id="seconds">00</span>
+          <span class="display" id="milliseconds">00</span>
+        </div>
+
+        <div class="button-group">
+          <button onclick="startTime()" class="button" id="start">Start</button>
+          <button onclick="pausTime()" class="button" id="paus">Paus</button>
+          <button onclick="resetTime()" class="button" id="reset">Reset</button>
+        </div>
+
+        <div class="result">
+
+        </div>
+      </section>
+    </div>
+
+    <script src="stopwatch.js"></script>
+  </body>
+</html>
